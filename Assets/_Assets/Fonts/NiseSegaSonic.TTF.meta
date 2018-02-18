@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cbcc15d1c1cb7194bb31b9a70ece0004
+timeCreated: 1518974445
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: NiseSegaSonic
+  fontNames:
+  - NiseSegaSonic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
