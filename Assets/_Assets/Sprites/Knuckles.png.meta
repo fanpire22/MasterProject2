@@ -1,30 +1,30 @@
 fileFormatVersion: 2
 guid: d39e15af641156c4699f937d99643b83
-timeCreated: 1518981888
-licenseType: Free
+timeCreated: 1519070809
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Knuckles_0
-    21300002: Knuckles_1
-    21300004: Knuckles_2
-    21300006: Knuckles_3
-    21300008: Knuckles_4
-    21300010: Knuckles_5
-    21300012: Knuckles_6
-    21300014: Knuckles_7
-    21300016: Knuckles_8
-    21300018: Knuckles_9
-    21300020: Knuckles_10
-    21300022: Knuckles_11
-    21300024: Knuckles_12
-    21300026: Knuckles_13
-    21300028: Knuckles_14
-    21300030: Knuckles_15
-    21300032: Knuckles_16
-    21300034: Knuckles_17
-    21300036: Knuckles_18
-    21300038: Knuckles_19
-    21300040: Knuckles_20
+    21300000: Idle1_0
+    21300002: Idle1_1
+    21300004: Idle1_2
+    21300006: Idle1_3
+    21300008: Idle1_4
+    21300010: Idle1_5
+    21300012: Idle1_6
+    21300014: Idle1_7
+    21300016: Idle1_8
+    21300018: Idle2_0
+    21300020: Idle2_1
+    21300022: Idle2_2
+    21300024: Idle2_3
+    21300026: Idle2_4
+    21300028: LookUp0
+    21300030: LookUp1
+    21300032: LookUp2
+    21300034: Crouch0
+    21300036: Crouch1
+    21300038: Crouch2
+    21300040: Crouch3
     21300042: Knuckles_21
     21300044: Knuckles_22
     21300046: Knuckles_23
@@ -35,85 +35,85 @@ TextureImporter:
     21300056: Knuckles_28
     21300058: Knuckles_29
     21300060: Knuckles_30
-    21300062: Knuckles_31
-    21300064: Knuckles_32
-    21300066: Knuckles_33
-    21300068: Knuckles_34
-    21300070: Knuckles_35
-    21300072: Knuckles_36
-    21300074: Knuckles_37
-    21300076: Knuckles_38
-    21300078: Knuckles_39
-    21300080: Knuckles_40
-    21300082: Knuckles_41
-    21300084: Knuckles_42
-    21300086: Knuckles_43
-    21300088: Knuckles_44
-    21300090: Knuckles_45
-    21300092: Knuckles_46
-    21300094: Knuckles_47
-    21300096: Knuckles_48
-    21300098: Knuckles_49
-    21300100: Knuckles_50
-    21300102: Knuckles_51
-    21300104: Knuckles_52
-    21300106: Knuckles_53
-    21300108: Knuckles_54
-    21300110: Knuckles_55
-    21300112: Knuckles_56
-    21300114: Knuckles_57
-    21300116: Knuckles_58
-    21300118: Knuckles_59
-    21300120: Knuckles_60
-    21300122: Knuckles_61
-    21300124: Knuckles_62
-    21300126: Knuckles_63
-    21300128: Knuckles_64
-    21300130: Knuckles_65
-    21300132: Knuckles_66
-    21300134: Knuckles_67
-    21300136: Knuckles_68
-    21300138: Knuckles_69
-    21300140: Knuckles_70
-    21300142: Knuckles_71
-    21300144: Knuckles_72
-    21300146: Knuckles_73
-    21300148: Knuckles_74
-    21300150: Knuckles_75
-    21300152: Knuckles_76
-    21300154: Knuckles_77
-    21300156: Knuckles_78
-    21300158: Knuckles_79
-    21300160: Knuckles_80
-    21300162: Knuckles_81
-    21300164: Knuckles_82
-    21300166: Knuckles_83
-    21300168: Knuckles_84
-    21300170: Knuckles_85
-    21300172: Knuckles_86
-    21300174: Knuckles_87
-    21300176: Knuckles_88
-    21300178: Knuckles_89
-    21300180: Knuckles_90
-    21300182: Knuckles_91
-    21300184: Knuckles_92
-    21300186: Knuckles_93
-    21300188: Knuckles_94
-    21300190: Knuckles_95
-    21300192: Knuckles_96
-    21300194: Knuckles_97
-    21300196: Knuckles_98
-    21300198: Knuckles_99
-    21300200: Knuckles_100
-    21300202: Knuckles_101
-    21300204: Knuckles_102
-    21300206: Knuckles_103
-    21300208: Knuckles_104
-    21300210: Knuckles_105
-    21300212: Knuckles_106
-    21300214: Knuckles_107
-    21300216: Knuckles_108
-    21300218: Knuckles_109
+    21300062: Punch1_0
+    21300064: Punch1_1
+    21300066: Punch1_2
+    21300068: Punch1_3
+    21300070: Punch1_4
+    21300072: Punch1_5
+    21300074: Punch1_6
+    21300076: Punch1_7
+    21300078: Punch2_0
+    21300080: Punch2_1
+    21300082: Punch2_2
+    21300084: Punch2_3
+    21300086: Punch2_4
+    21300088: Punch2_5
+    21300090: Punch2_6
+    21300092: idle3_0
+    21300094: idle3_1
+    21300096: idle3_2
+    21300098: idle3_3
+    21300100: idle3_4
+    21300102: idle3_5
+    21300104: idle3_6
+    21300106: idle3_7
+    21300108: idle3_8
+    21300110: idle3_9
+    21300112: idle3_10
+    21300114: idle3_11
+    21300116: idle3_12
+    21300118: idle3_13
+    21300120: idle3_14
+    21300122: idle3_15
+    21300124: Idle4_0
+    21300126: Idle4_1
+    21300128: Idle4_2
+    21300130: Idle4_3
+    21300132: Idle4_4
+    21300134: Idle4_5
+    21300136: Idle4_6
+    21300138: Idle4_7
+    21300140: Walk0
+    21300142: Walk1
+    21300144: Walk2
+    21300146: Walk3
+    21300148: Walk4
+    21300150: Walk5
+    21300152: Walk6
+    21300154: Walk7
+    21300156: SpeedUp_0
+    21300158: SpeedUp_1
+    21300160: SpeedUp_2
+    21300162: SpeedUp_3
+    21300164: SpeedUp_4
+    21300166: SpeedUp_5
+    21300168: SpeedUp_6
+    21300170: SpeedUp_7
+    21300172: Run0
+    21300174: Run1
+    21300176: Run2
+    21300178: Run3
+    21300180: Run4
+    21300182: Run5
+    21300184: Run6
+    21300186: Run7
+    21300188: RunToSprint0
+    21300190: RunToSprint1
+    21300192: RunToSprint2
+    21300194: RunToSprint3
+    21300196: RunToSprint4
+    21300198: RunToSprint5
+    21300200: RunToSprint6
+    21300202: RunToSprint7
+    21300204: Sprint0
+    21300206: Sprint1
+    21300208: Sprint2
+    21300210: Sprint3
+    21300212: Sprint4
+    21300214: Sprint5
+    21300216: Sprint6
+    21300218: Sprint7
     21300220: Knuckles_110
     21300222: Knuckles_111
     21300224: Knuckles_112
@@ -141,20 +141,20 @@ TextureImporter:
     21300268: Knuckles_134
     21300270: Knuckles_135
     21300272: Knuckles_136
-    21300274: Knuckles_137
-    21300276: Knuckles_138
-    21300278: Knuckles_139
+    21300274: Brake0
+    21300276: Brake1
+    21300278: Brake2
     21300280: Knuckles_140
     21300282: Knuckles_141
     21300284: Knuckles_142
-    21300286: Knuckles_143
-    21300288: Knuckles_144
-    21300290: Knuckles_145
-    21300292: Knuckles_146
+    21300286: Turn0
+    21300288: Turn1
+    21300290: Turn2
+    21300292: Turn3
     21300294: Knuckles_147
-    21300296: Knuckles_148
-    21300298: Knuckles_149
-    21300300: Knuckles_150
+    21300296: Grind0
+    21300298: Grind1
+    21300300: Grind2
     21300302: Knuckles_151
     21300304: Knuckles_152
     21300306: Knuckles_153
@@ -164,27 +164,27 @@ TextureImporter:
     21300314: Knuckles_157
     21300316: Knuckles_158
     21300318: Knuckles_159
-    21300320: Knuckles_160
-    21300322: Knuckles_161
-    21300324: Knuckles_162
-    21300326: Knuckles_163
-    21300328: Knuckles_164
-    21300330: Knuckles_165
-    21300332: Knuckles_166
-    21300334: Knuckles_167
-    21300336: Knuckles_168
-    21300338: Knuckles_169
-    21300340: Knuckles_170
-    21300342: Knuckles_171
-    21300344: Knuckles_172
-    21300346: Knuckles_173
-    21300348: Knuckles_174
-    21300350: Knuckles_175
-    21300352: Knuckles_176
-    21300354: Knuckles_177
-    21300356: Knuckles_178
-    21300358: Knuckles_179
-    21300360: Knuckles_180
+    21300320: SecondJump_0
+    21300322: SecondJump_1
+    21300324: SecondJump_2
+    21300326: SecondJump_3
+    21300328: SecondJump_4
+    21300330: SecondJump_5
+    21300332: Jump2
+    21300334: Jump3
+    21300336: Jump4
+    21300338: Jump5
+    21300340: Jump6
+    21300342: Jump7
+    21300344: Fall0
+    21300346: Fall1
+    21300348: Fall2
+    21300350: Fall3
+    21300352: Fall4
+    21300354: Fall5
+    21300356: Fall6
+    21300358: Jump0
+    21300360: Jump1
     21300362: Knuckles_181
     21300364: Knuckles_182
     21300366: Knuckles_183
@@ -198,15 +198,15 @@ TextureImporter:
     21300382: Knuckles_191
     21300384: Knuckles_192
     21300386: Knuckles_193
-    21300388: Knuckles_194
+    21300388: HeadButtCrouch
     21300390: Knuckles_195
     21300392: Knuckles_196
     21300394: Knuckles_197
     21300396: Knuckles_198
     21300398: Knuckles_199
-    21300400: Knuckles_200
-    21300402: Knuckles_201
-    21300404: Knuckles_202
+    21300400: HeadbuttStand3
+    21300402: HeadbuttStand4
+    21300404: HeadbuttStand5
     21300406: Knuckles_203
     21300408: Knuckles_204
     21300410: Knuckles_205
@@ -216,17 +216,17 @@ TextureImporter:
     21300418: Knuckles_209
     21300420: Knuckles_210
     21300422: Knuckles_211
-    21300424: Knuckles_212
-    21300426: Knuckles_213
-    21300428: Knuckles_214
-    21300430: Knuckles_215
-    21300432: Knuckles_216
-    21300434: Knuckles_217
-    21300436: Knuckles_218
-    21300438: Knuckles_219
+    21300424: Headbutt0
+    21300426: Headbutt1
+    21300428: Headbutt2
+    21300430: Headbutt3
+    21300432: Headbutt4
+    21300434: Headbutt5
+    21300436: Headbutt6
+    21300438: Headbutt7
     21300440: Knuckles_220
     21300442: Knuckles_221
-    21300444: Knuckles_222
+    21300444: Hit
     21300446: Knuckles_223
     21300448: Knuckles_224
     21300450: Knuckles_225
@@ -762,6 +762,11 @@ TextureImporter:
     21301510: Knuckles_755
     21301512: Knuckles_756
     21301514: Knuckles_757
+    21301516: Headbutt8
+    21301518: Headbutt9
+    21301520: HeadbuttStand0
+    21301522: HeadbuttStand1
+    21301524: HeadbuttStand2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -823,7 +828,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -833,7 +837,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   - buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -843,7 +846,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   - buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -853,18 +855,17 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Knuckles_0
+      name: Idle1_0
       rect:
         serializedVersion: 2
         x: 7
         y: 1623
         width: 26
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -872,13 +873,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_1
+      name: Idle1_1
       rect:
         serializedVersion: 2
         x: 44
         y: 1623
         width: 24
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,13 +887,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_2
+      name: Idle1_2
       rect:
         serializedVersion: 2
         x: 81
         y: 1623
         width: 23
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -900,13 +901,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_3
+      name: Idle1_3
       rect:
         serializedVersion: 2
         x: 117
         y: 1623
         width: 23
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -914,13 +915,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_4
+      name: Idle1_4
       rect:
         serializedVersion: 2
         x: 152
         y: 1623
         width: 24
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,13 +929,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_5
+      name: Idle1_5
       rect:
         serializedVersion: 2
         x: 187
         y: 1623
         width: 25
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -942,13 +943,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_6
+      name: Idle1_6
       rect:
         serializedVersion: 2
         x: 225
         y: 1623
         width: 23
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -956,13 +957,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_7
+      name: Idle1_7
       rect:
         serializedVersion: 2
         x: 261
         y: 1623
         width: 23
-        height: 32
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -970,13 +971,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_8
+      name: Idle1_8
       rect:
         serializedVersion: 2
         x: 296
         y: 1623
         width: 24
-        height: 33
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -984,7 +985,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_9
+      name: Idle2_0
       rect:
         serializedVersion: 2
         x: 331
@@ -998,7 +999,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_10
+      name: Idle2_1
       rect:
         serializedVersion: 2
         x: 366
@@ -1012,13 +1013,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_11
+      name: Idle2_2
       rect:
         serializedVersion: 2
         x: 402
         y: 1623
         width: 27
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1026,13 +1027,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_12
+      name: Idle2_3
       rect:
         serializedVersion: 2
         x: 436
         y: 1623
         width: 28
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,12 +1041,26 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_13
+      name: Idle2_4
       rect:
         serializedVersion: 2
         x: 477
         y: 1623
         width: 23
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LookUp0
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1623
+        width: 25
         height: 35
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1054,27 +1069,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_14
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 1623
-        width: 25
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_15
+      name: LookUp1
       rect:
         serializedVersion: 2
         x: 551
         y: 1623
         width: 21
-        height: 34
+        height: 35
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1082,7 +1083,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_16
+      name: LookUp2
       rect:
         serializedVersion: 2
         x: 587
@@ -1096,7 +1097,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_17
+      name: Crouch0
       rect:
         serializedVersion: 2
         x: 620
@@ -1110,13 +1111,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_18
+      name: Crouch1
       rect:
         serializedVersion: 2
         x: 655
         y: 1623
         width: 25
-        height: 27
+        height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1124,13 +1125,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_19
+      name: Crouch2
       rect:
         serializedVersion: 2
         x: 691
         y: 1623
         width: 26
-        height: 24
+        height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1138,110 +1139,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_20
+      name: Crouch3
       rect:
         serializedVersion: 2
         x: 727
         y: 1623
         width: 25
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_21
-      rect:
-        serializedVersion: 2
-        x: 763
-        y: 1623
-        width: 29
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_22
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 1623
-        width: 29
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_23
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 1623
-        width: 29
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_24
-      rect:
-        serializedVersion: 2
-        x: 871
-        y: 1623
-        width: 30
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_25
-      rect:
-        serializedVersion: 2
-        x: 915
-        y: 1623
-        width: 29
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_26
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 1623
-        width: 29
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_27
-      rect:
-        serializedVersion: 2
-        x: 997
-        y: 1623
-        width: 28
         height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1250,489 +1153,447 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_28
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 1579
-        width: 29
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_29
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 1579
-        width: 27
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_30
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 1579
-        width: 24
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_31
+      name: Punch1_0
       rect:
         serializedVersion: 2
         x: 116
         y: 1579
         width: 24
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.64, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_32
+      name: Punch1_1
       rect:
         serializedVersion: 2
         x: 150
         y: 1579
         width: 27
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.69, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_33
+      name: Punch1_2
       rect:
         serializedVersion: 2
         x: 189
         y: 1579
         width: 32
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.69, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_34
+      name: Punch1_3
       rect:
         serializedVersion: 2
         x: 234
         y: 1579
         width: 39
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.73, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_35
+      name: Punch1_4
       rect:
         serializedVersion: 2
         x: 280
         y: 1579
         width: 36
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.72, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_36
+      name: Punch1_5
       rect:
         serializedVersion: 2
         x: 328
         y: 1579
         width: 32
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_37
+      name: Punch1_6
       rect:
         serializedVersion: 2
         x: 370
         y: 1579
         width: 27
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_38
+      name: Punch1_7
       rect:
         serializedVersion: 2
         x: 406
         y: 1579
         width: 27
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.675, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_39
+      name: Punch2_0
       rect:
         serializedVersion: 2
         x: 444
         y: 1579
         width: 24
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_40
+      name: Punch2_1
       rect:
         serializedVersion: 2
         x: 479
         y: 1579
         width: 25
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_41
+      name: Punch2_2
       rect:
         serializedVersion: 2
         x: 518
         y: 1579
         width: 22
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.385, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_42
+      name: Punch2_3
       rect:
         serializedVersion: 2
         x: 553
         y: 1579
         width: 41
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_43
+      name: Punch2_4
       rect:
         serializedVersion: 2
         x: 607
         y: 1579
         width: 38
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.594, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_44
+      name: Punch2_5
       rect:
         serializedVersion: 2
         x: 656
         y: 1579
         width: 32
         height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_45
+      name: Punch2_6
       rect:
         serializedVersion: 2
         x: 698
         y: 1579
         width: 25
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 36
+      alignment: 9
+      pivot: {x: 0.42, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_46
+      name: idle3_0
       rect:
         serializedVersion: 2
         x: 738
         y: 1579
         width: 27
         height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_47
+      name: idle3_1
       rect:
         serializedVersion: 2
         x: 780
         y: 1579
         width: 32
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_48
+      name: idle3_2
       rect:
         serializedVersion: 2
         x: 827
         y: 1579
         width: 32
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_49
+      name: idle3_3
       rect:
         serializedVersion: 2
         x: 864
         y: 1579
         width: 31
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_50
+      name: idle3_4
       rect:
         serializedVersion: 2
         x: 900
         y: 1579
         width: 32
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_51
+      name: idle3_5
       rect:
         serializedVersion: 2
         x: 936
         y: 1579
         width: 32
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_52
+      name: idle3_6
       rect:
         serializedVersion: 2
         x: 972
         y: 1579
         width: 32
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_53
+      name: idle3_7
       rect:
         serializedVersion: 2
         x: 1008
         y: 1579
         width: 32
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_54
+      name: idle3_8
       rect:
         serializedVersion: 2
         x: 5
         y: 1535
         width: 31
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_55
+      name: idle3_9
       rect:
         serializedVersion: 2
         x: 42
         y: 1535
         width: 30
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_56
+      name: idle3_10
       rect:
         serializedVersion: 2
         x: 78
         y: 1535
         width: 30
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_57
+      name: idle3_11
       rect:
         serializedVersion: 2
         x: 114
         y: 1535
         width: 30
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_58
+      name: idle3_12
       rect:
         serializedVersion: 2
         x: 150
         y: 1535
         width: 30
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_59
+      name: idle3_13
       rect:
         serializedVersion: 2
         x: 186
         y: 1535
         width: 30
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_60
+      name: idle3_14
       rect:
         serializedVersion: 2
         x: 222
         y: 1535
         width: 30
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_61
+      name: idle3_15
       rect:
         serializedVersion: 2
         x: 258
         y: 1535
         width: 30
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_62
+      name: Idle4_0
       rect:
         serializedVersion: 2
         x: 295
         y: 1535
         width: 25
-        height: 34
+        height: 38
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1740,13 +1601,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_63
+      name: Idle4_1
       rect:
         serializedVersion: 2
         x: 329
         y: 1535
         width: 28
-        height: 37
+        height: 38
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1754,7 +1615,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_64
+      name: Idle4_2
       rect:
         serializedVersion: 2
         x: 369
@@ -1768,7 +1629,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_65
+      name: Idle4_3
       rect:
         serializedVersion: 2
         x: 407
@@ -1782,7 +1643,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_66
+      name: Idle4_4
       rect:
         serializedVersion: 2
         x: 443
@@ -1796,7 +1657,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_67
+      name: Idle4_5
       rect:
         serializedVersion: 2
         x: 479
@@ -1810,7 +1671,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_68
+      name: Idle4_6
       rect:
         serializedVersion: 2
         x: 515
@@ -1824,7 +1685,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_69
+      name: Idle4_7
       rect:
         serializedVersion: 2
         x: 551
@@ -1838,7 +1699,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_70
+      name: Walk0
       rect:
         serializedVersion: 2
         x: 580
@@ -1852,13 +1713,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_71
+      name: Walk1
       rect:
         serializedVersion: 2
         x: 614
         y: 1535
         width: 24
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1866,13 +1727,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_72
+      name: Walk2
       rect:
         serializedVersion: 2
         x: 648
         y: 1535
         width: 26
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1880,13 +1741,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_73
+      name: Walk3
       rect:
         serializedVersion: 2
         x: 686
         y: 1536
         width: 24
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1894,7 +1755,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_74
+      name: Walk4
       rect:
         serializedVersion: 2
         x: 716
@@ -1908,13 +1769,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_75
+      name: Walk5
       rect:
         serializedVersion: 2
         x: 750
         y: 1536
         width: 24
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1922,13 +1783,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_76
+      name: Walk6
       rect:
         serializedVersion: 2
         x: 784
         y: 1535
         width: 26
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1936,13 +1797,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_77
+      name: Walk7
       rect:
         serializedVersion: 2
         x: 822
         y: 1535
         width: 24
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1950,13 +1811,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_78
+      name: SpeedUp_0
       rect:
         serializedVersion: 2
         x: 859
         y: 1535
         width: 24
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1964,7 +1825,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_79
+      name: SpeedUp_1
       rect:
         serializedVersion: 2
         x: 890
@@ -1978,13 +1839,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_80
+      name: SpeedUp_2
       rect:
         serializedVersion: 2
         x: 925
         y: 1536
         width: 32
-        height: 32
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1992,13 +1853,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_81
+      name: SpeedUp_3
       rect:
         serializedVersion: 2
         x: 971
         y: 1535
         width: 26
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2006,13 +1867,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_82
+      name: SpeedUp_4
       rect:
         serializedVersion: 2
         x: 1011
         y: 1535
         width: 24
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2020,13 +1881,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_83
+      name: SpeedUp_5
       rect:
         serializedVersion: 2
         x: 5
         y: 1492
         width: 27
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2034,13 +1895,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_84
+      name: SpeedUp_6
       rect:
         serializedVersion: 2
         x: 41
         y: 1491
         width: 31
-        height: 33
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2048,13 +1909,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_85
+      name: SpeedUp_7
       rect:
         serializedVersion: 2
         x: 78
         y: 1491
         width: 27
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2062,13 +1923,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_86
+      name: Run0
       rect:
         serializedVersion: 2
         x: 117
         y: 1491
         width: 26
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2076,7 +1937,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_87
+      name: Run1
       rect:
         serializedVersion: 2
         x: 149
@@ -2090,13 +1951,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_88
+      name: Run2
       rect:
         serializedVersion: 2
         x: 189
         y: 1492
         width: 35
-        height: 33
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2104,13 +1965,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_89
+      name: Run3
       rect:
         serializedVersion: 2
         x: 229
         y: 1492
         width: 31
-        height: 33
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2118,13 +1979,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_90
+      name: Run4
       rect:
         serializedVersion: 2
         x: 269
         y: 1492
         width: 26
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2132,13 +1993,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_91
+      name: Run5
       rect:
         serializedVersion: 2
         x: 307
         y: 1492
         width: 31
-        height: 35
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2146,13 +2007,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_92
+      name: Run6
       rect:
         serializedVersion: 2
         x: 349
         y: 1491
         width: 35
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2160,13 +2021,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_93
+      name: Run7
       rect:
         serializedVersion: 2
         x: 395
         y: 1491
         width: 33
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2174,13 +2035,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_94
+      name: RunToSprint0
       rect:
         serializedVersion: 2
         x: 435
         y: 1491
         width: 28
-        height: 33
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2188,13 +2049,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_95
+      name: RunToSprint1
       rect:
         serializedVersion: 2
         x: 470
         y: 1493
         width: 30
-        height: 32
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2202,13 +2063,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_96
+      name: RunToSprint2
       rect:
         serializedVersion: 2
         x: 507
         y: 1492
         width: 42
-        height: 31
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2216,13 +2077,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_97
+      name: RunToSprint3
       rect:
         serializedVersion: 2
         x: 558
         y: 1492
         width: 32
-        height: 31
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2230,13 +2091,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_98
+      name: RunToSprint4
       rect:
         serializedVersion: 2
         x: 603
         y: 1492
         width: 28
-        height: 32
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2244,13 +2105,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_99
+      name: RunToSprint5
       rect:
         serializedVersion: 2
         x: 636
         y: 1491
         width: 33
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2258,13 +2119,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_100
+      name: RunToSprint6
       rect:
         serializedVersion: 2
         x: 684
         y: 1491
         width: 41
-        height: 32
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2272,13 +2133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_101
+      name: RunToSprint7
       rect:
         serializedVersion: 2
         x: 732
         y: 1491
         width: 34
-        height: 32
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2286,13 +2147,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_102
+      name: Sprint0
       rect:
         serializedVersion: 2
         x: 777
         y: 1491
         width: 30
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2300,13 +2161,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_103
+      name: Sprint1
       rect:
         serializedVersion: 2
         x: 813
         y: 1491
         width: 33
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2314,13 +2175,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_104
+      name: Sprint2
       rect:
         serializedVersion: 2
         x: 856
         y: 1492
         width: 38
-        height: 31
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2328,13 +2189,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_105
+      name: Sprint3
       rect:
         serializedVersion: 2
         x: 901
         y: 1492
         width: 33
-        height: 31
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2342,13 +2203,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_106
+      name: Sprint4
       rect:
         serializedVersion: 2
         x: 945
         y: 1491
         width: 30
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2356,13 +2217,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_107
+      name: Sprint5
       rect:
         serializedVersion: 2
         x: 981
         y: 1491
         width: 33
-        height: 34
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2370,13 +2231,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_108
+      name: Sprint6
       rect:
         serializedVersion: 2
         x: 4
         y: 1447
         width: 38
-        height: 32
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2384,180 +2245,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_109
+      name: Sprint7
       rect:
         serializedVersion: 2
         x: 49
         y: 1447
         width: 34
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_110
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 1447
-        width: 29
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_111
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 1447
-        width: 29
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_112
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 1447
-        width: 29
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_113
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 1448
-        width: 30
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_114
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 1447
-        width: 29
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_115
-      rect:
-        serializedVersion: 2
-        x: 283
-        y: 1448
-        width: 29
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_116
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 1447
-        width: 29
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_117
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 1447
-        width: 30
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_118
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 1447
-        width: 29
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_119
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 1447
-        width: 28
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_120
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 1448
-        width: 30
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_121
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 1447
-        width: 31
         height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -2566,217 +2259,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_122
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 1447
-        width: 29
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_123
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 1448
-        width: 28
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_124
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 1447
-        width: 30
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_125
-      rect:
-        serializedVersion: 2
-        x: 649
-        y: 1447
-        width: 31
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_126
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 1447
-        width: 28
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_127
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 1447
-        width: 29
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_128
-      rect:
-        serializedVersion: 2
-        x: 763
-        y: 1448
-        width: 31
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_129
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 1448
-        width: 30
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_130
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 1447
-        width: 28
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_131
-      rect:
-        serializedVersion: 2
-        x: 872
-        y: 1448
-        width: 30
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_132
-      rect:
-        serializedVersion: 2
-        x: 913
-        y: 1447
-        width: 34
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_133
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 1447
-        width: 32
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_134
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 1447
-        width: 22
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_135
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 1403
-        width: 22
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_136
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 1403
-        width: 27
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_137
+      name: Brake0
       rect:
         serializedVersion: 2
         x: 83
@@ -2790,7 +2273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_138
+      name: Brake1
       rect:
         serializedVersion: 2
         x: 135
@@ -2804,7 +2287,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_139
+      name: Brake2
       rect:
         serializedVersion: 2
         x: 181
@@ -2818,49 +2301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_140
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 1403
-        width: 27
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_141
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 1403
-        width: 20
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_142
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 1403
-        width: 27
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_143
+      name: Turn0
       rect:
         serializedVersion: 2
         x: 334
@@ -2874,13 +2315,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_144
+      name: Turn1
       rect:
         serializedVersion: 2
         x: 370
         y: 1404
         width: 29
-        height: 33
+        height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2888,13 +2329,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_145
+      name: Turn2
       rect:
         serializedVersion: 2
         x: 407
         y: 1404
         width: 27
-        height: 33
+        height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2902,7 +2343,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_146
+      name: Turn3
       rect:
         serializedVersion: 2
         x: 446
@@ -2916,21 +2357,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_147
-      rect:
-        serializedVersion: 2
-        x: 487
-        y: 1403
-        width: 26
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_148
+      name: Grind0
       rect:
         serializedVersion: 2
         x: 527
@@ -2944,7 +2371,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_149
+      name: Grind1
       rect:
         serializedVersion: 2
         x: 578
@@ -2958,7 +2385,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_150
+      name: Grind2
       rect:
         serializedVersion: 2
         x: 631
@@ -2972,133 +2399,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_151
-      rect:
-        serializedVersion: 2
-        x: 681
-        y: 1403
-        width: 26
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_152
-      rect:
-        serializedVersion: 2
-        x: 715
-        y: 1403
-        width: 31
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_153
-      rect:
-        serializedVersion: 2
-        x: 763
-        y: 1403
-        width: 40
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_154
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 1404
-        width: 39
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_155
-      rect:
-        serializedVersion: 2
-        x: 855
-        y: 1403
-        width: 27
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_156
-      rect:
-        serializedVersion: 2
-        x: 893
-        y: 1403
-        width: 24
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_157
-      rect:
-        serializedVersion: 2
-        x: 929
-        y: 1403
-        width: 26
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_158
-      rect:
-        serializedVersion: 2
-        x: 963
-        y: 1403
-        width: 27
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_159
-      rect:
-        serializedVersion: 2
-        x: 998
-        y: 1403
-        width: 29
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_160
+      name: SecondJump_0
       rect:
         serializedVersion: 2
         x: 7
@@ -3112,7 +2413,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_161
+      name: SecondJump_1
       rect:
         serializedVersion: 2
         x: 40
@@ -3126,7 +2427,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_162
+      name: SecondJump_2
       rect:
         serializedVersion: 2
         x: 82
@@ -3140,7 +2441,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_163
+      name: SecondJump_3
       rect:
         serializedVersion: 2
         x: 121
@@ -3154,7 +2455,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_164
+      name: SecondJump_4
       rect:
         serializedVersion: 2
         x: 158
@@ -3168,7 +2469,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_165
+      name: SecondJump_5
       rect:
         serializedVersion: 2
         x: 202
@@ -3182,7 +2483,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_166
+      name: Jump2
       rect:
         serializedVersion: 2
         x: 246
@@ -3196,7 +2497,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_167
+      name: Jump3
       rect:
         serializedVersion: 2
         x: 282
@@ -3210,7 +2511,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_168
+      name: Jump4
       rect:
         serializedVersion: 2
         x: 318
@@ -3224,7 +2525,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_169
+      name: Jump5
       rect:
         serializedVersion: 2
         x: 353
@@ -3238,7 +2539,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_170
+      name: Jump6
       rect:
         serializedVersion: 2
         x: 389
@@ -3252,7 +2553,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_171
+      name: Jump7
       rect:
         serializedVersion: 2
         x: 424
@@ -3266,7 +2567,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_172
+      name: Fall0
       rect:
         serializedVersion: 2
         x: 460
@@ -3280,7 +2581,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_173
+      name: Fall1
       rect:
         serializedVersion: 2
         x: 496
@@ -3294,7 +2595,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_174
+      name: Fall2
       rect:
         serializedVersion: 2
         x: 532
@@ -3308,7 +2609,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_175
+      name: Fall3
       rect:
         serializedVersion: 2
         x: 568
@@ -3322,7 +2623,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_176
+      name: Fall4
       rect:
         serializedVersion: 2
         x: 604
@@ -3336,7 +2637,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_177
+      name: Fall5
       rect:
         serializedVersion: 2
         x: 640
@@ -3350,7 +2651,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_178
+      name: Fall6
       rect:
         serializedVersion: 2
         x: 681
@@ -3364,7 +2665,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_179
+      name: Jump0
       rect:
         serializedVersion: 2
         x: 734
@@ -3378,7 +2679,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_180
+      name: Jump1
       rect:
         serializedVersion: 2
         x: 769
@@ -3392,189 +2693,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_181
-      rect:
-        serializedVersion: 2
-        x: 806
-        y: 1361
-        width: 38
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_182
-      rect:
-        serializedVersion: 2
-        x: 857
-        y: 1361
-        width: 40
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_183
-      rect:
-        serializedVersion: 2
-        x: 909
-        y: 1360
-        width: 40
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_184
-      rect:
-        serializedVersion: 2
-        x: 961
-        y: 1360
-        width: 40
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_185
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 1308
-        width: 40
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_186
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 1314
-        width: 44
-        height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_187
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 1313
-        width: 44
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_188
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 1313
-        width: 43
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_189
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 1313
-        width: 35
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_190
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 1313
-        width: 35
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_191
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 1313
-        width: 43
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_192
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 1308
-        width: 29
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_193
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 1308
-        width: 34
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_194
+      name: HeadButtCrouch
       rect:
         serializedVersion: 2
         x: 452
@@ -3588,77 +2707,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_195
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 1312
-        width: 39
-        height: 19
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_196
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 1312
-        width: 39
-        height: 19
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_197
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 1308
-        width: 35
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_198
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 1309
-        width: 31
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_199
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 1307
-        width: 32
-        height: 41
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_200
+      name: HeadbuttStand3
       rect:
         serializedVersion: 2
         x: 702
@@ -3672,7 +2721,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_201
+      name: HeadbuttStand4
       rect:
         serializedVersion: 2
         x: 740
@@ -3686,7 +2735,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_202
+      name: HeadbuttStand5
       rect:
         serializedVersion: 2
         x: 779
@@ -3700,404 +2749,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_203
-      rect:
-        serializedVersion: 2
-        x: 820
-        y: 1307
-        width: 42
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_204
-      rect:
-        serializedVersion: 2
-        x: 872
-        y: 1313
-        width: 56
-        height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_205
-      rect:
-        serializedVersion: 2
-        x: 932
-        y: 1313
-        width: 56
-        height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_206
-      rect:
-        serializedVersion: 2
-        x: 993
-        y: 1311
-        width: 26
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_207
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 1244
-        width: 28
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_208
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 1239
-        width: 31
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_209
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 1246
-        width: 28
-        height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_210
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 1246
-        width: 26
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_211
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 1246
-        width: 32
-        height: 41
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_212
+      name: Headbutt0
       rect:
         serializedVersion: 2
         x: 207
         y: 1259
         width: 32
         height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_213
+      name: Headbutt1
       rect:
         serializedVersion: 2
         x: 244
         y: 1258
         width: 46
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_214
+      name: Headbutt2
       rect:
         serializedVersion: 2
         x: 296
         y: 1248
         width: 46
         height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_215
+      name: Headbutt3
       rect:
         serializedVersion: 2
         x: 348
         y: 1247
         width: 46
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_216
+      name: Headbutt4
       rect:
         serializedVersion: 2
         x: 402
         y: 1241
         width: 44
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_217
+      name: Headbutt5
       rect:
         serializedVersion: 2
         x: 454
         y: 1240
         width: 53
         height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_218
+      name: Headbutt6
       rect:
         serializedVersion: 2
         x: 514
         y: 1258
         width: 44
         height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_219
+      name: Headbutt7
       rect:
         serializedVersion: 2
         x: 566
         y: 1258
         width: 44
         height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_220
-      rect:
-        serializedVersion: 2
-        x: 622
-        y: 1240
-        width: 40
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_221
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 1240
-        width: 40
-        height: 41
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_222
+      name: Hit
       rect:
         serializedVersion: 2
         x: 722
         y: 1242
         width: 30
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_223
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 1239
-        width: 26
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_224
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 1239
-        width: 31
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_225
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 1239
-        width: 31
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_226
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 1239
-        width: 29
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_227
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 1240
-        width: 26
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_228
-      rect:
-        serializedVersion: 2
-        x: 936
-        y: 1240
-        width: 26
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_229
-      rect:
-        serializedVersion: 2
-        x: 972
-        y: 1239
-        width: 27
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_230
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 1239
-        width: 26
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_231
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 1187
-        width: 26
         height: 30
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -4442,76 +3211,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_256
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 1127
-        width: 28
-        height: 43
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_257
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 1127
-        width: 33
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_258
-      rect:
-        serializedVersion: 2
-        x: 760
-        y: 1128
-        width: 41
-        height: 44
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_259
-      rect:
-        serializedVersion: 2
-        x: 814
-        y: 1128
-        width: 37
-        height: 51
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_260
-      rect:
-        serializedVersion: 2
-        x: 861
-        y: 1127
-        width: 55
-        height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Knuckles_261
       rect:
         serializedVersion: 2
@@ -4533,20 +3232,6 @@ TextureImporter:
         y: 1167
         width: 4
         height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_263
-      rect:
-        serializedVersion: 2
-        x: 995
-        y: 1162
-        width: 11
-        height: 9
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4638,34 +3323,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_270
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 1128
-        width: 44
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_271
-      rect:
-        serializedVersion: 2
-        x: 920
-        y: 1127
-        width: 56
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Knuckles_272
       rect:
         serializedVersion: 2
@@ -4680,76 +3337,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Knuckles_273
-      rect:
-        serializedVersion: 2
-        x: 980
-        y: 1127
-        width: 57
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_274
-      rect:
-        serializedVersion: 2
-        x: 985
-        y: 1155
-        width: 12
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_275
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 1127
-        width: 25
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_276
-      rect:
-        serializedVersion: 2
-        x: 643
-        y: 1128
-        width: 49
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_277
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 1128
-        width: 49
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Knuckles_278
       rect:
         serializedVersion: 2
@@ -4757,118 +3344,6 @@ TextureImporter:
         y: 1143
         width: 5
         height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_279
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 1067
-        width: 54
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_280
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 1095
-        width: 7
-        height: 9
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_281
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 1067
-        width: 47
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_282
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 1067
-        width: 46
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_283
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 1070
-        width: 35
-        height: 51
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_284
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 1069
-        width: 33
-        height: 51
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_285
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 1069
-        width: 29
-        height: 52
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_286
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 1069
-        width: 32
-        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5135,20 +3610,6 @@ TextureImporter:
         y: 1089
         width: 4
         height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Knuckles_306
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 1067
-        width: 14
-        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -11463,6 +9924,76 @@ TextureImporter:
         y: 4
         width: 1040
         height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Headbutt8
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1240
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Headbutt9
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1240
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeadbuttStand0
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1308
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeadbuttStand1
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1309
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeadbuttStand2
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1307
+        width: 32
+        height: 42
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
