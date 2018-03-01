@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -266,6 +267,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 352229725}
+  - component: {fileID: 352229727}
+  - component: {fileID: 352229726}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -295,6 +298,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &352229726
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352229724}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 6.6454372, y: 0.81198174}
+  - {x: 9.518154, y: 3.5956252}
+  - {x: 9.84656, y: 3.6230633}
+  - {x: 10.102983, y: 3.6753514}
+  - {x: 10.275589, y: 3.7935603}
+  - {x: 10.392469, y: 3.9989512}
+  - {x: 10.452302, y: 4.214419}
+  - {x: 10.474608, y: 4.395594}
+--- !u!68 &352229727
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352229724}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.827681, y: 0.5413209}
+  - {x: 4.4722357, y: 0.5402}
+  - {x: 5.1209908, y: 0.4054381}
+  - {x: 5.55233, y: 0.55936515}
 --- !u!1 &458819527
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,6 +403,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -985,7 +1031,7 @@ Animator:
   m_GameObject: {fileID: 2027726705}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1da732407ebdaa54b9a6e739dc747aac, type: 2}
+  m_Controller: {fileID: 9100000, guid: adaa11b0dbfcf074bb5147e5a245c607, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
