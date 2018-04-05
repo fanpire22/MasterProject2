@@ -13,21 +13,37 @@ public enum ePowerUps
 public class Knuckles : BaseCharacter
 {
     [Header("Variables propias de Knuckles")]
-    [SerializeField] private LayerMask _jumpingLayer;
+    [SerializeField]
+    private LayerMask _jumpingLayer;
     [SerializeField] private float _detectionRadius;
     [SerializeField] private float _jumpForce;
+    [SerializeField] private float _jumpCooldown;
+
+    [Header("Variables de sonidos de Knucles")]
+    [SerializeField]
+    private AudioClip _sfxJump;
+    [SerializeField] private AudioClip _sfxDeath;
 
     public static bool bRestoreLocation;
     public static Vector3 RestoreLocation;
 
     private bool bDodge = true;
-    private bool bDblJump = false;
+    private int iMaxJump = 2;
     private bool bUppercut = true;
+
+    private int iJumps = 0;
+    private float nextTimeCanJump;
 
     private bool bIsDodging = false;
     private bool bIsAttacking = false;
+    private bool bJumpStarting = false;
 
     int _currentWeapon;
+
+    //TODO: TEMPORAL
+    bool bTheEnd = false;
+    //END TODO
+
 
     private float _horizontalAxis;
     private float _verticalAxis;
@@ -40,6 +56,7 @@ public class Knuckles : BaseCharacter
     void UpdateJump()
     {
         base.ani.SetBool("OnAir", _bInAir);
+        if (bJumpStarting) bJumpStarting = !_bInAir;
 
         //Obtenemos la información sobre el estado de la animación del inicio del salto.
         AnimatorStateInfo state = ani.GetCurrentAnimatorStateInfo(0);
@@ -48,11 +65,24 @@ public class Knuckles : BaseCharacter
         if (state.IsName("Jump.Jump") && state.normalizedTime > 0.3f && state.normalizedTime < 0.4f)
         {
             rig.velocity = new Vector2(rig.velocity.x, _jumpForce);
+            if (_sfxJump) AudioSource.PlayClipAtPoint(_sfxJump, transform.position);
+        }
+
+        //Estamos animando el salto
+        if (state.IsName("Jump.DoubleJump") && state.normalizedTime < 0.1)
+        {
+            rig.velocity = new Vector2(rig.velocity.x, _jumpForce);
+            if (_sfxJump) AudioSource.PlayClipAtPoint(_sfxJump, transform.position);
         }
     }
 
     protected override void Update()
     {
+
+        //TODO: TEMPORAL
+        if (bTheEnd) return;
+        //END TODO
+
         base.Update();
 
         UpdateJump();
@@ -74,21 +104,45 @@ public class Knuckles : BaseCharacter
             //( el equivalente a un Guard Cancel de un juego de lucha)
 
             //Salto
-            if (_bJumpPressed && !_bInAir)
+            if (_bJumpPressed)
             {
-                base.ani.SetTrigger("Jump");
+                if (Time.time > nextTimeCanJump)
+                {
+                    nextTimeCanJump = Time.time + _jumpCooldown;
+
+                    if (!_bInAir)
+                    {
+                        SimpleMove(new Vector2());
+                        iJumps = 0;
+                        bJumpStarting = true;
+                        base.ani.SetTrigger("Jump");
+                    }
+                    else
+                    {
+                        //Hacemos doble o triple salto si no hemos llegado al límite de saltos
+                        if (iJumps < iMaxJump)
+                        {
+                            iJumps++;
+                            bJumpStarting = false;
+                            base.ani.SetTrigger("Jump");
+                        }
+                    }
+                }
             }
 
-            //Movimiento
-            SimpleMove(Vector2.right * _horizontalAxis * _speed);
-            if (_horizontalAxis != 0)
+            //Movimiento. No podemos movernos al iniciar el salto (luego en el aire, sí)
+            if (!bJumpStarting && !bIsAttacking)
             {
-                spr.flipX = _horizontalAxis > 0;
+                SimpleMove(Vector2.right * _horizontalAxis * _speed);
+                if (_horizontalAxis != 0)
+                {
+                    spr.flipX = _horizontalAxis > 0;
+                }
             }
         }
 
-        //Esquiva
-        if (_verticalAxis < 0 && bDodge && !bIsDodging)
+        //Esquiva. Sólo se puede hacer en el suelo
+        if (_verticalAxis < 0 && bDodge && !bIsDodging && !_bInAir)
         {
             bIsAttacking = false;
             bIsDodging = true;
@@ -107,11 +161,25 @@ public class Knuckles : BaseCharacter
     }
 
     /// <summary>
+    /// Acabamos de golpear a algo.
+    /// </summary>
+    /// <param name="collision">Objeto al que golpeamos</param>
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Damageable dmg = collision.GetComponent<Damageable>();
+        if (dmg)
+        {
+            //Es un objeto que se puede dañar, le dañamos
+        }
+    }
+
+    /// <summary>
     /// Aquí sólo llegamos si podíamos golpear
     /// </summary>
     protected override void OnAttack()
     {
         bIsAttacking = true;
+        SimpleMove(new Vector2());
         base.ani.SetTrigger("Attack");
     }
 
@@ -119,6 +187,7 @@ public class Knuckles : BaseCharacter
     {
 
 
+        if (_sfxDeath) AudioSource.PlayClipAtPoint(_sfxDeath, transform.position);
     }
 
     /// <summary>
@@ -160,4 +229,18 @@ public class Knuckles : BaseCharacter
     {
         rig.isKinematic = false;
     }
+
+    //TODO: TEMPORAL
+    /// <summary>
+    /// Entramos en el poste de victoria. Hacemos la animación
+    /// </summary>
+    public void Victory()
+    {
+        Move(new Vector2());
+        rig.MovePosition(transform.position + Vector3.right);
+        ani.SetTrigger("Victory");
+        bTheEnd = true;
+    }
+
+    //END TODO
 }

@@ -5,9 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(BoxCollider2D))]
-public class Spring : MonoBehaviour
+public class Goal : MonoBehaviour
 {
-    [SerializeField] float _springForce;
     private Animator ani;
 
 
@@ -21,9 +20,9 @@ public class Spring : MonoBehaviour
     {
         if (collision.CompareTag("Knuckles"))
         {
-            Rigidbody2D rig = collision.GetComponent<Rigidbody2D>();
-            ani.SetTrigger("Pressed");
-            rig.velocity = new Vector2(rig.velocity.x, _springForce);
+            Knuckles knux = collision.GetComponent<Knuckles>();
+            ani.SetTrigger("Active");
+            knux.Victory();
         }
     }
 
