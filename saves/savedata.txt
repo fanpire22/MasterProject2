@@ -1,0 +1,1 @@
+{"Position":{"x":6.334709167480469,"y":-0.3541818857192993,"z":-2.0},"SceneIndex":1,"iMaxJumps":0,"bDodge":false,"bUppercut":false}

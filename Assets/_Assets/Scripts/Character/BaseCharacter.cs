@@ -7,7 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
-[RequireComponent(typeof(Damageable))]
+[RequireComponent(typeof(AudioSource))]
 
 public abstract class BaseCharacter : MonoBehaviour {
 
@@ -16,11 +16,12 @@ public abstract class BaseCharacter : MonoBehaviour {
     public Animator ani { get; protected set; }
     public Rigidbody2D rig { get; protected set; }
     public SpriteRenderer spr { get; protected set; }
+    public AudioSource audio { get; protected set; }
 
     [Header("Combat")]
     [SerializeField] float _attackRate;
-    public Damageable HealthManager { get; protected set; }
     protected float _nextTimeCanAttack;
+
 
     /// <summary>
     /// Inicializamos los componentes
@@ -30,7 +31,7 @@ public abstract class BaseCharacter : MonoBehaviour {
         ani = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
         spr = GetComponent<SpriteRenderer>();
-        HealthManager = GetComponent<Damageable>();
+        audio = GetComponent<AudioSource>();
     }
 
     protected void Move(Vector2 direction)
@@ -68,6 +69,20 @@ public abstract class BaseCharacter : MonoBehaviour {
             return true;
         }
         return false;
+    }
+
+    protected void PlaySound(AudioClip clip)
+    {
+        if (!audio.isPlaying)
+        {
+            audio.clip = clip;
+            audio.Play();
+        }
+    }
+
+    public virtual void updateLife(int life)
+    {
+
     }
 
     public virtual void OnDeath()

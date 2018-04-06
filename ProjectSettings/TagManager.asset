@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Knuckles
+  - Title
+  - Description
   layers:
   - Default
   - TransparentFX

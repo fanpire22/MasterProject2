@@ -8,6 +8,7 @@ using UnityEngine;
 public class Spring : MonoBehaviour
 {
     [SerializeField] float _springForce;
+    [SerializeField] AudioClip _sfxSpring;
     private Animator ani;
 
 
@@ -24,6 +25,7 @@ public class Spring : MonoBehaviour
             Rigidbody2D rig = collision.GetComponent<Rigidbody2D>();
             ani.SetTrigger("Pressed");
             rig.velocity = new Vector2(rig.velocity.x, _springForce);
+            if (_sfxSpring) AudioSource.PlayClipAtPoint(_sfxSpring, transform.position);
         }
     }
 
