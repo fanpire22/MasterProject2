@@ -17,6 +17,7 @@ public abstract class BaseCharacter : MonoBehaviour {
     public Rigidbody2D rig { get; protected set; }
     public SpriteRenderer spr { get; protected set; }
     public AudioSource audio { get; protected set; }
+    public bool Invulnerable { get; protected set; }
 
     [Header("Combat")]
     [SerializeField] float _attackRate;
@@ -80,7 +81,7 @@ public abstract class BaseCharacter : MonoBehaviour {
         }
     }
 
-    public virtual void updateLife(int life)
+    public virtual void updateLife(int life, bool wasHit)
     {
 
     }
@@ -88,6 +89,23 @@ public abstract class BaseCharacter : MonoBehaviour {
     public virtual void OnDeath()
     {
 
+    }
+
+    /// <summary>
+    /// Control para volver el rigidBody Kinematic durante ciertas animaciones
+    /// </summary>
+    public virtual void PleaseBeKinematic()
+    {
+        rig.isKinematic = true;
+        rig.velocity = new Vector2();
+    }
+
+    /// <summary>
+    /// Control para devolver el rigidBody a su estado normal durante ciertas animaciones
+    /// </summary>
+    public virtual void PleaseDontBeKinematic()
+    {
+        rig.isKinematic = false;
     }
 
     protected abstract void OnAttack();

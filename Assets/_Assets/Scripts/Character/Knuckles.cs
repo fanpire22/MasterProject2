@@ -27,6 +27,9 @@ public class Knuckles : BaseCharacter
 
     public static bool bRestoreLocation;
     public static Vector3 RestoreLocation;
+    public static bool bRestoreDodge;
+    public static int iRestoreMaxJump;
+    public static bool bRestoreUppercut;
 
     public bool bDodge { get; private set; }
     public int iMaxJump { get; private set; }
@@ -38,10 +41,8 @@ public class Knuckles : BaseCharacter
     private bool bIsDodging = false;
     private bool bIsAttacking = false;
     private bool bJumpStarting = false;
-
-    //TODO: TEMPORAL
+    
     bool bTheEnd = false;
-    //END TODO
 
     private float _horizontalAxis;
     private float _verticalAxis;
@@ -85,7 +86,7 @@ public class Knuckles : BaseCharacter
 
     protected override void Update()
     {
-
+        if (GameManager.Pause) return;
         //TODO: TEMPORAL
         if (bTheEnd) return;
         //END TODO
@@ -106,6 +107,7 @@ public class Knuckles : BaseCharacter
         int count = Physics2D.OverlapCircleNonAlloc(transform.position, _detectionRadius, _footDetection, _jumpingLayer);
         _bInAir = count == 0;
 
+        Invulnerable = (bIsDodging || bIsAttacking); 
         if (!bIsAttacking)
         {
             //Si no hay animación de ataque, podemos saltar o movernos. Si estamos atacando, sólo podemos cancelar la animación con una esquiva
@@ -148,7 +150,7 @@ public class Knuckles : BaseCharacter
                 SimpleMove(Vector2.right * _horizontalAxis * speed);
                 if (_horizontalAxis != 0)
                 {
-                    transform.rotation = Quaternion.Euler(0,(_horizontalAxis > 0? 180: 0),0);
+                    transform.rotation = Quaternion.Euler(0, (_horizontalAxis > 0 ? 180 : 0), 0);
                 }
             }
         }
@@ -180,9 +182,24 @@ public class Knuckles : BaseCharacter
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Damageable dmg = collision.GetComponent<Damageable>();
-        if (dmg)
+        if (dmg && bIsAttacking)
         {
             //Es un objeto que se puede dañar, le dañamos
+            dmg.GetDamage();
+        }
+    }
+
+    /// <summary>
+    /// Algo ha salido de nuestro trigger. Es posible que al iniciar el puñetazo, todo el cuerpo estuviera dentro del Collider
+    /// </summary>
+    /// <param name="collision"></param>
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Damageable dmg = collision.GetComponent<Damageable>();
+        if (dmg && bIsAttacking)
+        {
+            //Es un objeto que se puede dañar, le dañamos
+            dmg.GetDamage();
         }
     }
 
@@ -204,6 +221,7 @@ public class Knuckles : BaseCharacter
     public override void OnDeath()
     {
         if (_sfxDeath) PlaySound(_sfxDeath);
+        _gm.OnDefeat();
     }
 
     /// <summary>
@@ -215,7 +233,12 @@ public class Knuckles : BaseCharacter
         {
             rig.MovePosition(RestoreLocation);
             bRestoreLocation = false;
+            bDodge = bRestoreDodge;
+            bUppercut = bRestoreUppercut;
+            iMaxJump = iRestoreMaxJump;
         }
+
+        GameManager.Pause = false;
 
     }
 
@@ -246,23 +269,6 @@ public class Knuckles : BaseCharacter
     public void OnFinishAttack()
     {
         bIsAttacking = false;
-    }
-
-    /// <summary>
-    /// Control para volver el rigidBody Kinematic durante ciertas animaciones
-    /// </summary>
-    public void PleaseBeKinematic()
-    {
-        rig.isKinematic = true;
-        rig.velocity = new Vector2();
-    }
-
-    /// <summary>
-    /// Control para devolver el rigidBody a su estado normal durante ciertas animaciones
-    /// </summary>
-    public void PleaseDontBeKinematic()
-    {
-        rig.isKinematic = false;
     }
 
     /// <summary>
@@ -300,27 +306,33 @@ public class Knuckles : BaseCharacter
         }
     }
 
-    public override void updateLife(int life)
+    public override void updateLife(int life, bool wasHit)
     {
         _gm.SetLifeShown(life);
+        if (wasHit && ani) ani.SetTrigger("Hit");
+        if (ani) ani.SetInteger("Life", life);
     }
-    
+
     public void AddPoints(int amount)
     {
         _gm.AddPoints(amount);
     }
-
-    //TODO: TEMPORAL
+    
     /// <summary>
     /// Entramos en el poste de victoria. Hacemos la animación
     /// </summary>
     public void Victory()
     {
         Move(new Vector2());
-        rig.MovePosition(transform.position + Vector3.right);
         ani.SetTrigger("Victory");
         bTheEnd = true;
     }
 
-    //END TODO
+    /// <summary>
+    /// Ha terminado la animación de victoria. Mostramos la pantalla de Victoria
+    /// </summary>
+    public void OnVictory()
+    {
+        _gm.OnVictory();
+    }
 }

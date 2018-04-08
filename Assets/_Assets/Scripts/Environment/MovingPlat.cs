@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class MovingPlat : MonoBehaviour {
 
     [SerializeField] Transform PositionA;
     [SerializeField] Transform PositionB;
+    [SerializeField] float _timeToTraverse = 5;
     [SerializeField] bool bPlayOnAwake = true;
 
     Sequence sequence;
@@ -17,8 +19,8 @@ public class MovingPlat : MonoBehaviour {
         Rigidbody2D rig = GetComponent<Rigidbody2D>();
         sequence = DOTween.Sequence();
 
-        sequence.Append(transform.DOMove(PositionB.position, 5))
-        .Append(transform.DOMove(PositionA.position, 5));
+        sequence.Append(transform.DOMove(PositionB.position, _timeToTraverse))
+        .Append(transform.DOMove(PositionA.position, _timeToTraverse));
 
         sequence.SetLoops(-1).Pause();
         if (bPlayOnAwake) StartMoving();

@@ -32,6 +32,7 @@ public class PowerUpMonitor : MonoBehaviour
             ani.SetTrigger("Explode");
 
             collision.GetComponent<Knuckles>().GetPowerUp(_powerUp);
+            GameManager.Pause = true;
         }
     }
 
@@ -40,6 +41,7 @@ public class PowerUpMonitor : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && bOpenToolTip)
         {
            TooltipController.unloadToolTip();
+            GameManager.Pause = false;
             Destroy(gameObject);
         }
     }

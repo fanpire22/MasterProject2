@@ -260,8 +260,13 @@
     <Compile Include="Assets\_Assets\Scripts\Character\BaseCharacter.cs" />
     <Compile Include="Assets\_Assets\Scripts\Character\Damageable.cs" />
     <Compile Include="Assets\_Assets\Scripts\Character\Knuckles.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Character\Medusa.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Character\Rhino.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Character\Wasp.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Environment\Bullet.cs" />
     <Compile Include="Assets\_Assets\Scripts\Environment\Checkpoint.cs" />
     <Compile Include="Assets\_Assets\Scripts\Environment\Goal.cs" />
+    <Compile Include="Assets\_Assets\Scripts\Environment\InstaKillZone.cs" />
     <Compile Include="Assets\_Assets\Scripts\Environment\MovingPlat.cs" />
     <Compile Include="Assets\_Assets\Scripts\Environment\MovingSpikeBall.cs" />
     <Compile Include="Assets\_Assets\Scripts\Environment\MultiPickup.cs" />
@@ -272,6 +277,7 @@
     <Compile Include="Assets\_Assets\Scripts\UI\CreditosToPpal.cs" />
     <Compile Include="Assets\_Assets\Scripts\UI\FSaveData.cs" />
     <Compile Include="Assets\_Assets\Scripts\UI\GameManager.cs" />
+    <Compile Include="Assets\_Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\_Assets\Scripts\UI\TooltipController.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />

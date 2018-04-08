@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(BaseCharacter))]
-public class Damageable : MonoBehaviour {
+public class Damageable : MonoBehaviour
+{
 
     [SerializeField] private int _maxLife;
     private int _life;
@@ -15,22 +16,24 @@ public class Damageable : MonoBehaviour {
         _chara = GetComponent<BaseCharacter>();
 
         //Mandamos esta orden para que si es Knuckles, se muestre su vida en pantalla
-        _chara.updateLife(_life);
+        _chara.updateLife(_life, false);
     }
 
     /// <summary>
     /// En este juego, se trabaja con "golpes", por lo que los puntos de vida sólo se quitan de uno en uno
     /// </summary>
-    public void GetDamage()
+    public bool GetDamage()
     {
-        _life --;
+        if (_chara.Invulnerable) return false;
+        _life--;
 
         //Mandamos esta orden para que si es Knuckles, se muestre su vida en pantalla
-        _chara.updateLife(_life);
+        _chara.updateLife(_life, true);
         if (_life == 0)
         {
             _chara.OnDeath();
         }
+        return true;
     }
 
     /// <summary>
@@ -41,13 +44,13 @@ public class Damageable : MonoBehaviour {
         _life = 0;
 
         //Mandamos esta orden para que si es Knuckles, se muestre su vida en pantalla
-        _chara.updateLife(_life);
+        _chara.updateLife(_life, true);
         _chara.OnDeath();
     }
 
     public void Heal(int amount)
     {
         _life = Mathf.Min(_maxLife, _life + amount);
-        _chara.updateLife(_life);
+        _chara.updateLife(_life, false);
     }
 }
